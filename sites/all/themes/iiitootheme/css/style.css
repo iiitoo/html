@@ -3,14 +3,14 @@
  * remove this comment and start adding your styles to this file.
  */
 .logo{
-    margin: 25px !important;
+    margin: 25px 0 25px 110px !important;
 }
 ul.menu{
     margin-left: 25%;
+    margin-top: 45px
 }
 .menu>li a {
     padding: 0 5px !important;
-    margin-top: 45px !important;
 }
 .caret{
     display: none !important;

@@ -2,6 +2,9 @@
  * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
  * remove this comment and start adding your styles to this file.
  */
+.bg{
+    background-image: url(../images/bg.jpg);
+}
 .logo{
     margin: 25px 0 25px 110px !important;
 }
@@ -14,4 +17,21 @@ ul.menu{
 }
 .caret{
     display: none !important;
+}
+#navbar{
+    border-bottom: 1px #000 solid;
+}
+.navbar-default .navbar-nav>.active>a{
+    
+}
+.dropdown-menu{
+    min-width: inherit !important;
+    
+}
+.navbar-nav>li>.dropdown-menu{
+    border: none;
+    padding: 1px 0;
+}
+.navbar-default .navbar-nav>.active>a{
+    color: #fff;
 }
